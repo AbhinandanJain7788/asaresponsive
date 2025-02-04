@@ -34,10 +34,30 @@
 }
 
 
-.hero h1 {
+/* .hero h1 {
     font-size: 38px;
     font-weight: 700;
+} */
+.hero h1 {
+    font-size: clamp(24px, 5vw, 38px); /* Adjusts dynamically */
+    font-weight: 700;
+    text-align: center; /* Ensures text is centered on smaller screens */
 }
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: clamp(20px, 4vw, 32px); /* Reduces size for smaller screens */
+    }
+}
+
+/* Further Adjustment for Extra Small Screens */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: clamp(18px, 3.5vw, 28px); /* Ensures readability on very small devices */
+    }
+}
+
 
 .subtitle {
     font-size: 18px;

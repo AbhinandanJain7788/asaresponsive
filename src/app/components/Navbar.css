@@ -128,7 +128,7 @@ nav ul li a {
 }
 
 /* Responsive Navbar for Mobile */
-@media (max-width: 28px) {
+@media (max-width: 587px) {
     header {
         flex-direction: column;
         text-align: center;
