@@ -1,0 +1,164 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: clamp(10px, 3vw, 20px) clamp(20px, 5vw, 50px); /* Responsive padding */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* background: rgba(108, 108, 108, 0.5); Slight background for readability */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: clamp(30px, 5vw, 50px); /* Responsive logo size */
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: clamp(16px, 2vw, 24px); /* Responsive text */
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(14px, 1.5vw, 18px); /* Responsive font size */
+    font-weight: 500;
+}
+
+/* Fixed Navbar on Scroll */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Navbar for Mobile */
+@media (max-width: 28px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 15px; /* Reduce padding */
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Reduce spacing between menu items */
+    }
+
+    nav ul li a {
+        font-size: clamp(12px, 4vw, 16px); /* Smaller text */
+        padding: 8px 0;
+        display: block;
+    }
+
+    .logo img {
+        height: 30px; /* Reduce logo size */
+    }
+
+    .logo span {
+        font-size: 16px; /* Smaller text */
+    }
+}
+
+
+
+
