@@ -11,7 +11,7 @@ export default function Reviews() {
     <div className="reviews-wrapper">
         <div className="reviews">
             <div className="review">
-                <p>"The perfect escape from city life! The homestay offered serene views, excellent hospitality, and a truly relaxing environment. It was exactly what we needed for our weekend retreat."</p>
+                <p>The perfect escape from city life! The homestay offered serene views, excellent hospitality, and a truly relaxing environment. It was exactly what we needed for our weekend retreat.</p>
                 <div className="user">
                     <div className="user-icon">AS</div>
                     <div>
@@ -22,7 +22,7 @@ export default function Reviews() {
                 </div>
             </div>
              <div className="review">
-                <p>"Our stay at this homestay was beyond amazing! The hosts were incredibly welcoming, and the ambiance made us feel at home. We loved waking up to the scenic views and peaceful environment every day."</p>
+                <p>Our stay at this homestay was beyond amazing! The hosts were incredibly welcoming, and the ambiance made us feel at home. We loved waking up to the scenic views and peaceful environment every day.</p>
                 <div className="user">
                     <div className="user-icon">RC</div>
                     <div>
@@ -32,7 +32,7 @@ export default function Reviews() {
                 </div>
             </div>
             <div className="review">
-                <p>"The homestay was perfect for our family vacation. The rooms were cozy, and the food was delicious. The kids especially enjoyed the garden and outdoor activities. Definitely coming back!"</p>
+                <p>The homestay was perfect for our family vacation. The rooms were cozy, and the food was delicious. The kids especially enjoyed the garden and outdoor activities. Definitely coming back!</p>
                 <div className="user">
                     <div className="user-icon">RK</div>
                     <div>
@@ -43,7 +43,7 @@ export default function Reviews() {
             </div>
            
             <div className="review">
-                <p>"The perfect escape from city life! The homestay offered serene views, excellent hospitality, and a truly relaxing environment. It was exactly what we needed for our weekend retreat."</p>
+                <p>The perfect escape from city life! The homestay offered serene views, excellent hospitality, and a truly relaxing environment. It was exactly what we needed for our weekend retreat.</p>
                 <div className="user">
                     <div className="user-icon">AS</div>
                     <div>
@@ -53,7 +53,7 @@ export default function Reviews() {
                 </div>
             </div>
             <div className="review">
-                <p>"Our stay at this homestay was beyond amazing! The hosts were incredibly welcoming, and the ambiance made us feel at home. We loved waking up to the scenic views and peaceful environment every day."</p>
+                <p>Our stay at this homestay was beyond amazing! The hosts were incredibly welcoming, and the ambiance made us feel at home. We loved waking up to the scenic views and peaceful environment every day.</p>
                 <div className="user">
                     <div className="user-icon">RC</div>
                     <div>
@@ -63,7 +63,7 @@ export default function Reviews() {
                 </div>
             </div>
             <div className="review">
-                <p>"The homestay was perfect for our family vacation. The rooms were cozy, and the food was delicious. The kids especially enjoyed the garden and outdoor activities. Definitely coming back!"</p>
+                <p>The homestay was perfect for our family vacation. The rooms were cozy, and the food was delicious. The kids especially enjoyed the garden and outdoor activities. Definitely coming back!</p>
                 <div className="user">
                     <div className="user-icon">RK</div>
                     <div>
